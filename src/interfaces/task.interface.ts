@@ -12,7 +12,7 @@ export interface ITask extends Document {
   description: string;
   dueDate?: Date;
   completed: boolean;
-  owner:Schema.Types.ObjectId,;
+  owner:Schema.Types.ObjectId;
   createdAt: Date;
   updatedAt: Date;
 }
