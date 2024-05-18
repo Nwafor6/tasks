@@ -55,11 +55,6 @@ To run the Task Management Application locally, follow these steps:
    # Token Secret
    TOKEN_SECRET="STRING"
 
-   # Base URL
-   BASE_URL="https://nwafor-glory-tasks.onrender.com"
-
-   # Socket.io URL
-   SOCKET_URL="https://nwafor-glory-tasks.onrender.com"
    ```
 
 4. **Start the Server**: Start the backend server by running the following command:
@@ -75,4 +70,5 @@ To run the Task Management Application locally, follow these steps:
 - The application's backend is hosted on [Render](https://render.com/).
 - BASE_URL = "https://nwafor-glory-tasks.onrender.com"
 - SOCKET_URL = "https://nwafor-glory-tasks.onrender.com"
+- Compelete API DOC = "https://documenter.getpostman.com/view/33072617/2sA3JT3eGA"
 - Clients should listen for the `"RECIEVE_TASK"` event via Socket.io to receive real-time updates on tasks.
