@@ -16,7 +16,6 @@ const UserSchema:Schema<IUser> = new Schema<IUser>(
       fullName: {
         type: String,
         required: true,
-        unique: true,
       },
       password: {
         type: String,
