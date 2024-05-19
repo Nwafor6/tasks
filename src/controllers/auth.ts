@@ -18,7 +18,7 @@ export class Auth {
             }
         
             // Check if username already exists
-            const existingUsername = await UserModel.findOne({ username: value.username });
+            const existingUsername = await UserModel.findOne({ username: value.username.toLowerCase() });
             if (existingUsername) {
                 logger.info(value.username)
                 return failedResponse(res, 400, "Username already exists")
